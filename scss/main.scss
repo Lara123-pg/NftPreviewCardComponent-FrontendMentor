@@ -1,0 +1,25 @@
+@import 'global';
+@import 'styleFontFlex';
+@import 'card';
+
+@media (max-width: 1437px) {
+    html {
+        font-size: 90%;
+    }
+
+    div.div1, div.div2 {
+        img {
+            max-width: 85%;
+            max-height: 85%;
+            width: auto;
+            height: auto;
+        }        
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1340px) {
+    div.view {
+        height: 10%;
+    }
+}

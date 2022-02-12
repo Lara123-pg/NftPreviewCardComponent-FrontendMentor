@@ -1,0 +1,12 @@
+@mixin styleFont($size, $weight:"") {
+    font-size: $size;
+    font-family: 'Outfit', sans-serif;
+    @if $weight != "" {
+        font-weight: $weight;
+    }
+}
+
+@mixin FlexBox {
+    display: flex;
+    flex-direction: row;
+}

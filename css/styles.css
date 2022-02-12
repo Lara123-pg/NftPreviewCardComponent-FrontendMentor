@@ -123,9 +123,6 @@ main.container div.card div.creator p a:hover {
 footer.attribution {
   font-size: 12px;
   text-align: center;
-  position: absolute;
-  bottom: 6px;
-  left: 580px;
 }
 
 footer.attribution a {

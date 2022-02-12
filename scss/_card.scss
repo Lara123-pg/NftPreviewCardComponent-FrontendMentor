@@ -93,7 +93,7 @@ main.container {
                 @include FlexBox;
 
                 color: $text-color;
-                padding-right: 6em;
+                padding-right: 4em;
             }
 
             div.div2 {
@@ -145,9 +145,6 @@ main.container {
 footer.attribution { 
     font-size: 12px; 
     text-align: center; 
-    position: absolute; 
-    bottom: 3px;
-    left: 580px;
 }
 
 footer.attribution a { color: $text-color; }
